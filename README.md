@@ -3,7 +3,34 @@
 
 **Skriv din rapport här!**
 
-_Du kan ta bort all text som finns sedan tidigare_.
+Jag har skapat en layouts för sidan Berg. jag började med att skapa en contraint layout och sedan kögga till imageView, editText samt textView.
+Sedan har jag positionerat dom så som jag tyckte var snyggt, ändrat textdesign, storlek och lagt till en accentfärg till temat. 
+
+
+Detta är min contraint layout, för att programmet ska kunna välja layout, behöver du tala om vilken layout du vill jobba med. 
+``` 
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+``` 
+Exempel på hur jag positionerat, denna kod avser min positonering av button. 
+``` 
+      android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginRight="4dp"
+```
+
+färgläggning samt styling av text. 
+
+``` 
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        ....
+        android:background="@android:color/holo_orange_light"
+``` 
+
+
 
 ## Följande grundsyn gäller dugga-svar:
 
